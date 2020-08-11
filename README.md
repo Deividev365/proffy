@@ -19,7 +19,7 @@ Proffy is a project built with the goal of helping student and teachers connect 
 
 
 
-## 💻 Tecnologies and Packages
+## 💻 Tecnologies
 
 Este projeto contém as seguintes tecnologias:
 
@@ -36,3 +36,5 @@ Este projeto contém as seguintes tecnologias:
 ## 🔖 Layout
 
 Acess to the layout here 💻 [Web](https://www.figma.com/file/W7X5HgkYaruZnUVKHj6Uz4/Proffy-Web) or 📱 [Mobile](https://www.figma.com/file/FSQdUUY3n8YZeLkpZTJYBT/Proffy-Mobile).
+
+Thanks, Rocketseat :rocket:
