@@ -91,7 +91,7 @@ function pageGiveClasses(req, res) {
             queryString += "&weekday=" + req.body.weekday[0]
             queryString += "&time=" + req.body.time_from[0]
 
-            return res.redirect("/study" + queryString);
+            return res.redirect("/sucess-page" + queryString);
         } catch (error) {
             console.log(error);
         }
@@ -100,9 +100,14 @@ function pageGiveClasses(req, res) {
 
 }
 
+function pageSucess(req, res) {
+    res.render('page-sucess.html');
+}
+
 module.exports = {
     pageLanding,
     pageStudy,
     pageGiveClasses,
+    pageSucess,
     saveClasses
 }

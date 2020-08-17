@@ -3,7 +3,7 @@
 const express = require('express');
 const server = express();
 
-const { pageLanding, pageStudy, pageGiveClasses, saveClasses} = require('./pages');
+const { pageLanding, pageStudy, pageGiveClasses, pageSucess, saveClasses} = require('./pages');
 
 
 const nunjucks = require('nunjucks');
@@ -21,6 +21,8 @@ server.get("/", pageLanding);
 server.get("/study", pageStudy);
 
 server.get("/give-classes", pageGiveClasses);
+
+server.post("/page-sucess", pageSucess);
 server.post("/save-classes", saveClasses)
 
 

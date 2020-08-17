@@ -1,0 +1,11 @@
+#page-sucess {
+    background-color: var(--color-primary-light);
+}
+
+.icon-sucess img {
+    margin-left:  16rem;
+}
+
+.icon-sucess h1 {
+    color: var(--color-title-in-primary);
+}
